@@ -1,0 +1,29 @@
+body {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+}
+.darkblue {
+    color: rgb(6, 6, 134);
+}
+.pink {
+    color: rgb(238, 125, 144);
+}
+.yellow {
+    color: rgb(218, 218, 134);
+}
+.lightblue  {
+    color: rgb(99, 99, 223);
+}
+.brown {
+    color: brown;
+}
+.purple {
+    color: rgb(79, 53, 199);
+}
+.paragraph-wrapper {
+    padding: 20px;
+    border: 20px solid black;
+    border-image: url(https://lh3.googleusercontent.com/UnZy2-vjf5UgcBaOIZimN2sBdMMBmZQcSS77ROx3lASEFrMX7PBwbVYTYLok6JKgk4LxFsg9pXbaQvDasVhkz3A8vHFSyQQ75Jg=s400) 33% round;
+}

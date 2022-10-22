@@ -1,0 +1,20 @@
+body{
+    background-color: green;
+}
+table, th, td {
+    border: 2px dotted black;
+    border-collapse: collapse;
+    padding: 7px;
+    background-color: whitesmoke;
+}
+table td:nth-child(even){
+    background-color: greenyellow;
+}
+table th:nth-child(odd){
+    background-color: greenyellow;
+}
+table{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
