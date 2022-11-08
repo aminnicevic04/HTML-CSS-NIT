@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 3px 0 rgb(162, 160, 160);
+ }
+  
+.header li {
+    display: inline-block;
+    color: #47536e;
+    margin: 10px;
+    position: relative;
+    left: 40%;
+}
+.header h1 {
+    color: #5777ba;
+    font-weight: 200;
+}
+.header button {
+    background-color: #5777ba;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius:30px ;
+    border: none;
+}
+.main {
+    height: 84vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.main img{
+    width: 400px;
+    height: 400px;
+    padding-left: 60px;
+}
+.maindesna{
+    padding-left: 50px;
+    padding-right: 30px;
+}
+.maindesna h1{
+    color: #47536e;
+    margin-bottom: 40px;
+}
+.maindesna p{
+    padding-bottom: 20px;
+}
+.maindesna ul{
+    list-style: none;
+    transform: translateX(-20px);
+    padding-bottom: 20px;
+    line-height: 2.5;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(197, 190, 190);
+}
+  .footer .footerleva .footertext {
+    display: flex;
+}
+  .footer .footerleva .footertext p {
+    margin: 4px;
+}
+.footer .footertext p:nth-last-of-type(1) {
+    color: #5777ba;
+}
+.footer .footerleva {
+    margin-left: 15px;
+}
+.footer .footerdesna{
+    margin-right: 15px;
+}
+.footer .footerdesna .fa {
+    color: #5777ba;
+    background-color: #939499;
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+.footer .footerdesna .fa-facebook {
+    padding-left: 15px;
+    padding-right: 15px;
+}
