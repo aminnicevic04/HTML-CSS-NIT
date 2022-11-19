@@ -1,0 +1,88 @@
+.container1{
+    width: 961px;
+    height: 159px;
+    display: inline-flex;
+    justify-content: center;
+    background-color: rgb(186, 209, 252);
+    margin-left:20%;
+    margin-bottom: 30px;
+}
+.container2{
+    width: 961px;
+    height: 159px;
+    display: inline-flex;
+    justify-content: center;
+    background-color: rgb(189, 209, 218);
+    margin-left:20%;
+    margin-top: 0px;
+}
+.container3{
+    width: 961px;
+    height: 159px;
+    display: inline-flex;
+    justify-content: center;
+    background-color: rgb(76, 129, 243);
+    margin-left:20%;
+    margin-top: 30px;
+    
+}
+.container1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.container2:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.container3:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#broj{
+    width: 200px;
+    height: 100%;
+    font-size: 30px;
+    margin-top: 40px;
+    transform: translateY(-50px);
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(228, 74, 74);
+}
+#broj3{
+    width: 200px;
+    height: 100%;
+    font-size: 30px;
+    margin-top: 40px;
+    transform: translateY(-50px);
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(135, 32, 219);
+}
+.krug img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 35%;
+}
+.krug img:hover {
+    transform: rotate(720deg);
+    transition: 3s;
+}
+.krug2 img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin-left: 35%;
+}
+.krug2 h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 800px;
+    margin-left: 37%;
+}
+.krug2 img:hover {
+    transform: rotate(72000000000000000000000deg);
+    transition: 3s;
+}
